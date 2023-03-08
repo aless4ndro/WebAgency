@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: auto;
+}
+
+#navbar {
+  background-color: #5f1782;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#logo {
+  border-radius: 50%;
+  padding: 10px;
+  width: 90px;
+
+}
+
+#logoPlay {
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* Banner */
+
+#banner {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+  padding-top: 5%;
+}
+
+#buttonBanner {
+  background-color: #5f1782;
+  color: #c9b6df;
+  border: none;
+  border-radius: 5px;
+  padding: auto;
+  margin: 0px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: right;
+
+}
+
+#buttonBanner:hover {
+  background-color: #a517ba;
+  color: #fff;
+}
+
+#buttonBanner:active {
+  background-color: #5f1782;
+  color: #c9b6df;
+}
+
+.banner-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+}
+
+.play-btn {
+  width: 45px;
+  margin: 20px;
+}
+
+#banner a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#wave-bottom {
+  width: 100%;
+}
+
+
+
+
+/* DropdownListe GS */
+
+.dropdown-list {
+  height: 200px;
+  overflow-y: scroll;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.dropdown-list
+.scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  background-color: black;
+  opacity: 1;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .scrollbar {
+    width: 4px;
+    border-radius: 2px;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: #9ca1f0;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
